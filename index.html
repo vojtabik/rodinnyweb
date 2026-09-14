@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rodinný web - místo plné společných příběhů, smíchu a vzpomínek."
+    />
+    <title>Naše rodina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#domu" aria-label="Naše rodina - úvod">
+        <span class="logo-mark">✦</span>
+        <span>Naše rodina</span>
+      </a>
+      <nav class="main-nav" aria-label="Hlavní navigace">
+        <a class="active" href="#domu">Domů</a>
+        <a href="#rodina">Kdo jsme</a>
+      </nav>
+      <a class="header-button" href="#rodina">Poznejte nás <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero" id="domu">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Spolu je nám nejlépe</p>
+          <h1>Místo, kde<br /><em>jsme doma.</em></h1>
+          <p class="hero-description">
+            Vítejte na našem malém rodinném webu. Tady najdete naše příběhy,
+            radosti a lidi, kteří dělají náš domov domovem.
+          </p>
+          <a class="primary-button" href="#rodina">Poznejte naši rodinu <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-art" aria-label="Ilustrace rodinného domu">
+          <div class="sun"></div>
+          <div class="cloud cloud-one"></div>
+          <div class="cloud cloud-two"></div>
+          <div class="hill hill-back"></div>
+          <div class="hill hill-front"></div>
+          <div class="house">
+            <div class="roof"></div>
+            <div class="house-body">
+              <div class="window window-left"><span></span><span></span></div>
+              <div class="door"><i></i></div>
+              <div class="window window-right"><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="tree tree-left"><i></i><b></b><b></b><b></b></div>
+          <div class="tree tree-right"><i></i><b></b><b></b><b></b></div>
+          <span class="sparkle sparkle-one">✦</span>
+          <span class="sparkle sparkle-two">✦</span>
+        </div>
+      </section>
+
+      <section class="family-section" id="rodina">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span></span> Lidé, které milujeme</p>
+            <h2>Tohle jsme my</h2>
+          </div>
+          <p class="section-intro">
+            Každý z nás je jiný. Právě proto tvoříme jeden krásný celek.
+          </p>
+        </div>
+        <div class="family-grid">
+          <article class="family-card card-yellow">
+            <div class="avatar avatar-yellow">👩🏻</div>
+            <p class="role">MÁMA</p>
+            <h3>Jana</h3>
+            <p>Drží naši rodinu pohromadě a vždy ví, kde co najít.</p>
+            <span class="card-number">01</span>
+          </article>
+          <article class="family-card card-blue">
+            <div class="avatar avatar-blue">👨🏻</div>
+            <p class="role">TÁTA</p>
+            <h3>Petr</h3>
+            <p>Opraví téměř všechno a nejlepší výlety plánuje právě on.</p>
+            <span class="card-number">02</span>
+          </article>
+          <article class="family-card card-pink">
+            <div class="avatar avatar-pink">👧🏻</div>
+            <p class="role">DCERA</p>
+            <h3>Eliška</h3>
+            <p>Miluje kreslení, tanec a našeho chlupatého parťáka.</p>
+            <span class="card-number">03</span>
+          </article>
+          <article class="family-card card-green">
+            <div class="avatar avatar-green">🐶</div>
+            <p class="role">NEJLEPŠÍ KAMARÁD</p>
+            <h3>Max</h3>
+            <p>Čtyři tlapky, jeden vrtící ocas a energie na rozdávání.</p>
+            <span class="card-number">04</span>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo"><span class="logo-mark">✦</span> Naše rodina</div>
+      <p>Vytvořeno s láskou doma.</p>
+      <p class="copyright">© <span id="year"></span> Naše rodina</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
